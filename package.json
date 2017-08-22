@@ -1,0 +1,33 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debugger": "DEBUG=*:* npm run dev"
+  },
+  "author": "Vince Abruzzo",
+  "contributors": [
+    {
+      "name": "J Silverstein",
+      "city": "NYC"
+    },
+    {
+      "name": "Roy Vanegas",
+      "city": "NYC"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg-promise": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
