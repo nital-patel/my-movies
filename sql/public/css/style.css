@@ -1,0 +1,58 @@
+body {
+   font: 1rem 'Open Sans', sans-serif;
+   width: 90%;
+   margin: auto;
+}
+
+h1, h2, h3 {
+   font-weight: 600;
+   text-align: center;
+}
+
+h1 {
+   font-size: 2rem;
+   margin: 20px 20px 14px;
+}
+
+h2 {
+   font-size: 1.83rem;
+   margin: 24px 20px 20px;
+}
+
+h3 {
+   font-size: 1.5rem;
+}
+
+ul {
+   list-style-type: disc;
+}
+
+li:hover {
+   background-color: #ddd;
+}
+
+#movie-clicked {
+   padding: 20px 0;
+   text-align: center;
+}
+
+form {
+   margin: 24px 0;
+}
+
+fieldset {
+   padding: 20px;
+   border: 1px solid #aaa;
+}
+
+fieldset span {
+   padding: 0 10px;
+   display: inline-block;
+}
+
+input[type="submit"] {
+   margin-left: 8px;
+   border: 0;
+   padding: 8px;
+   background-color: #fadeda;
+}
